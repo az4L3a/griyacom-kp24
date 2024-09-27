@@ -14,25 +14,29 @@
 </template>
 
 <script>
+import computerRepairImage from '@/assets/computer-repair-image.jpg'
+import laptopMaintenanceImage from '@/assets/laptop-maintenance-image.jpg'
+import dataRecoveryImage from '@/assets/data-recovery-image.jpg'
+
 export default {
   name: 'ServicesSection',
   data() {
     return {
       services: [
         {
-          title: 'Computer Repair',
-          description: 'Our expert technicians can diagnose and fix a wide range of computer issues, from hardware failures to software problems.',
-          image: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200"><rect width="400" height="200" fill="%23003b5c"/><text x="50%" y="50%" font-family="Arial" font-size="24" fill="%23ffffff" text-anchor="middle" dominant-baseline="middle">Computer Repair Image</text></svg>'
+          title: 'Perbaikan Komputer',
+          description: 'Teknisi ahli kami dapat mendiagnosis dan memperbaiki berbagai masalah komputer, mulai dari kerusakan perangkat keras hingga permasalahan perangkat lunak.',
+          image: computerRepairImage
         },
         {
-          title: 'Laptop Maintenance',
-          description: 'Keep your laptop running at peak performance with our comprehensive maintenance services, including cleaning and optimizing.',
-          image: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200"><rect width="400" height="200" fill="%23003b5c"/><text x="50%" y="50%" font-family="Arial" font-size="24" fill="%23ffffff" text-anchor="middle" dominant-baseline="middle">Laptop Maintenance Image</text></svg>'
+          title: 'Perawatan Laptop',
+          description: 'Jaga performa laptop Anda tetap optimal dengan layanan perawatan lengkap dari kami, termasuk pembersihan dan optimasi sistem.',
+          image: laptopMaintenanceImage
         },
         {
-          title: 'Data Recovery',
-          description: 'Lost important files? Our data recovery experts can help retrieve your valuable data from damaged or corrupted storage devices.',
-          image: 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200"><rect width="400" height="200" fill="%23003b5c"/><text x="50%" y="50%" font-family="Arial" font-size="24" fill="%23ffffff" text-anchor="middle" dominant-baseline="middle">Data Recovery Image</text></svg>'
+          title: 'Pemulihan Data',
+          description: 'Kehilangan data penting? Ahli pemulihan data kami siap membantu mengembalikan file Anda yang hilang dari perangkat penyimpanan yang rusak atau corrupt.',
+          image: dataRecoveryImage
         }
       ]
     }

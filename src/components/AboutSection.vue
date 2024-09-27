@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="container">
     <h2>About Griyacom</h2>
-    <p>Griyacom is a leading provider of computer and laptop services and products. With years of experience in the IT field, we are committed to delivering high-quality solutions to meet all your technology needs.</p>
+    <p>Griyacom adalah penyedia terkemuka layanan dan produk komputer serta laptop. Dengan pengalaman bertahun-tahun di bidang IT, kami berkomitmen untuk memberikan solusi berkualitas tinggi untuk memenuhi segala kebutuhan teknologi Anda.</p>
   </section>
 </template>
 

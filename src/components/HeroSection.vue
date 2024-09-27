@@ -1,9 +1,9 @@
 <template>
   <section class="hero">
     <div class="hero-content">
-      <h1>Welcome to Griyacom</h1>
-      <p>Your one-stop solution for all computer and laptop needs</p>
-      <a href="#services" class="btn">Explore Our Services</a>
+      <h1>Selamat Datang di Griyacom</h1>
+      <p>Solusi lengkap untuk segala kebutuhan komputer dan laptop Anda</p>
+      <a href="#services" class="btn">Jelajahi Layanan Kami</a>
     </div>
   </section>
 </template>

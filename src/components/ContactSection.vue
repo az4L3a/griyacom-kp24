@@ -1,14 +1,16 @@
 <template>
   <section id="contact" class="container">
     <h2>Contact Us</h2>
-    <p>Phone: (123) 456-7890</p>
-    <p>Email: info@griyacom.com</p>
-    <p>Address: 123 Tech Street, Digital City, 12345</p>
+    <p>
+      Instagram: 
+      <a href="https://www.instagram.com/griyacom_lampung" target="_blank" rel="noopener noreferrer">
+        @griyacom_lampung
+      </a>
+    </p>
+    <p>Buka Setiap Hari 08:00 Pagi - 20:00 Malam</p>
+    <p>Accessories: (0721) 704207</p>
+    <p>Notebook: (0721) 7880974-706795</p>
+    <p>Service: (0721) 705660-787636</p>
+    <p>Address: Jl.Teuku Umar No.55 Kedaton, Bandar Lampung</p>
   </section>
 </template>
-
-<script>
-export default {
-  name: 'ContactSection'
-}
-</script>
